@@ -22,7 +22,7 @@ function Menu() {
         },
     ]
     return (
-        <div classNmae="menu">
+        <div className="menu">
             <h1>Other posts you may like</h1>
             {posts.map(post =>(
                 <div className="post" key={post.id}>
